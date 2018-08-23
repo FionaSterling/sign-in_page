@@ -1,0 +1,123 @@
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  display: block;
+  margin-top: 15px;
+}
+
+form.form {
+  margin: 15px auto;
+  font-family: arial;
+  border-style: solid;
+  padding: 15px 25px 8px 25px;
+  border-radius: 6px;
+  border-color: lightgrey;
+}
+
+.sign_in {
+  padding: 8px;
+  padding-top: 5px;
+}
+
+.email_label {
+  font-weight: bold;
+  font-family: arial;
+  font-size: 14px;
+}
+
+.form-control {
+  border-style: solid;
+  border-color: #8d9096;
+}
+
+.link_bullet {
+  padding: 5px 5px 0px 5px;
+  margin-left: 5px auto;
+  font-size: 14px;
+}
+
+.btn {
+  background-color: #f4cf71;
+  border-color: #a88734;
+  border-radius: 4px;
+  border-style: solid;
+  margin: 15px auto;
+  font-size: 14px;
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: #f0c14b;
+}
+
+.grey_text {
+  overflow: hidden;
+  text-align: center;
+  color: grey;
+  font-style: arial;
+  font-size: 12px;
+  margin-bottom: 2px;
+}
+
+.grey_text:before,
+.grey_text:after {
+  background-color: grey;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.grey_text:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.grey_text:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.btn_create_account {
+  background-color: #f2f2f2;
+  border-style: solid;
+  border-radius: 4px;
+  border-color: #666666;
+  margin: 10px auto;
+  font-size: 14px;
+  width: 100%;
+  padding: 4px;
+  border-width: 1px;
+}
+
+.btn_create_account:hover{
+  cursor: pointer;
+  background-color: #d9d9d9;
+}
+
+.links {
+  font-size: 12px;
+  display: inline;
+  align: center;
+  width: 100%;
+  padding: 22px;
+  border-top: 5px;
+  border-top-color: grey;
+}
+
+.last_text {
+  color: grey;
+  text-align: center;
+  font-size: 12px;
+  margin: 8px auto;
+}
+
+footer {
+  background-color: white;
+}
